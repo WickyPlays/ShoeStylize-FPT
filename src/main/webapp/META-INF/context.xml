@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ShoeStylize_Tomcat">
+    <Resource auth="Container" driverClassName="org.postgresql.Driver" maxIdle="90" maxTotal="100" maxWaitMillis="10000"
+              name="jdbc/postgres" password="password" type="javax.sql.DataSource"
+              url="jdbc:url" username="postgres"/>
+</Context>
